@@ -19,17 +19,17 @@ To understand digital output programming using Arduino by blinking an LED.
 The full sketch is available in [`code.ino`](./code.ino).
 
 ```cpp
-const int ledPin = 8;   // Pin connected to the LED
+const int ledPin = 8;   
 
 void setup() {
-  pinMode(ledPin, OUTPUT);   // Set the LED pin as an output
+  pinMode(ledPin, OUTPUT);   
 }
 
 void loop() {
-  digitalWrite(ledPin, HIGH); // Turn the LED on
-  delay(1000);                 // Wait for 1 second
-  digitalWrite(ledPin, LOW);  // Turn the LED off
-  delay(1000);                 // Wait for 1 second
+  digitalWrite(ledPin, HIGH); 
+  delay(1000);                 
+  digitalWrite(ledPin, LOW);  
+  delay(1000);                 
 }
 ```
 
