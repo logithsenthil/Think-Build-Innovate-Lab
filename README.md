@@ -42,4 +42,4 @@ Distance: <value> cm
 ```
 
 ## Author
-Logith — Mechatron Motors
+Logith 
